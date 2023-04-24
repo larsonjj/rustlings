@@ -3,9 +3,9 @@
 // Execute `rustlings hint primitive_types3` or use the `hint` watch subcommand for a hint.
 
 fn main() {
-    let a = vec![];
+    let mut a = vec![];
 
-    for 0..100 in a {
+    for _ in 0..100 {
         a.push(1);
     }
 
